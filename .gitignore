@@ -1,0 +1,21 @@
+# 原始文件（已复制到 assets/，无需上传）
+作品集/
+王赫邦华科大27届药学与数智医疗.docx
+Resume_Wang_Hebang.docx
+whb照片.png
+远征协会.png
+天士力照片.png
+华科.webp
+华科校徽.webp
+羚锐图片.webp
+
+# 临时文件
+~$*
+*.tmp
+.DS_Store
+Thumbs.db
+
+# 编辑器
+.claude/
+.vscode/
+.idea/

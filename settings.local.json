@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import docx\")",
+      "Bash(python -c ' *)",
+      "Bash(mkdir -p assets css js)",
+      "Bash(cp \"王赫邦华科大27届药学与数智医疗.docx\" \"assets/王赫邦-简历.docx\")",
+      "Bash(cp \"作品集/AI相关/2026AI观察-穿越泡沫，交付结果.docx\" \"assets/AI观察-穿越泡沫交付结果.docx\")",
+      "Bash(cp \"作品集/AI相关/AI的思考文章和网站.docx\" \"assets/AI思考文章.docx\")",
+      "Bash(cp \"作品集/AI相关/珠峰之路 AI 宣传海报.png\" \"assets/珠峰之路AI海报.png\")",
+      "Bash(python -m http.server 8000)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8000/)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8000/assets/hust-campus.webp)",
+      "Bash(curl -sI -o /dev/null -w \"%{redirect_url}\\\\n\" -L --max-redirs 0 https://b23.tv/qmpz6Br)",
+      "Bash(curl -sI -o /dev/null -w \"%{redirect_url}\\\\n\" -L --max-redirs 0 https://b23.tv/PT2Tg3l)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8000/assets/远征协会.png)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"http://localhost:8000/assets/%E8%BF%9C%E5%BE%81%E5%8D%8F%E4%BC%9A.png\")"
+    ]
+  }
+}
